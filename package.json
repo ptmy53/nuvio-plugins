@@ -9,6 +9,7 @@
     "build:cloudstream": "node scripts/build.mjs",
     "build:nuvio": "node scripts/build-nuvio.mjs",
     "build:offline": "node scripts/build.mjs --offline",
-    "validate": "node scripts/validate.mjs && node scripts/validate-nuvio.mjs"
+    "validate": "node scripts/validate.mjs && node scripts/validate-nuvio.mjs",
+    "test": "node test/test-providers.cjs"
   }
 }

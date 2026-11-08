@@ -32,8 +32,8 @@ https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/manifest.json
 
 | | |
 |---|---|
-| Nuvio sağlayıcısı | **55** |
-| Kaynak depo | 4 |
+| Nuvio sağlayıcısı | **72** |
+| Kaynak depo | 6 |
 | Platform | Nuvio Mobile, Nuvio TV, Android TV (tam sürüm) |
 | Dil | Türkçe ağırlıklı |
 | Format | HLS / M3U8 / MP4 / MKV |
@@ -47,7 +47,9 @@ Sağlayıcıların tam listesi: **[PROVIDERS.md](PROVIDERS.md)**
 | [falsisdev/anthology](https://github.com/falsisdev/anthology) | 34 | GPL-3.0 |
 | [csprofesor/csnuvio](https://github.com/csprofesor/csnuvio) | 15 | belirtilmemiş |
 | [mooncrown04/nuviotr](https://github.com/mooncrown04/nuviotr) | 4 | belirtilmemiş |
-| [fmustafayaman/turkish-nuvio](https://github.com/fmustafayaman/turkish-nuvio) | 2 | GPL-3.0 |
+| [fmustafayaman/turkish-nuvio](https://github.com/fmustafayaman/turkish-nuvio) | 3 | GPL-3.0 |
+| [F0Rextasy/bigbullapp-cs](https://github.com/F0Rextasy/bigbullapp-cs) | 10 | MIT |
+| [Wekmed/nuvio](https://github.com/Wekmed/nuvio) | 6 | belirtilmemiş |
 
 Bu depo sağlayıcı kodlarını kopyalamaz; `manifest.json` her sağlayıcıyı kendi
 kaynak deposundaki güncel dosyaya mutlak URL ile bağlar. Böylece upstream
@@ -80,13 +82,24 @@ https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/plugins.json
 
 CloudStream: **Eklentiler → Depo ekle** yoluna bu adresi yapıştır.
 
-## Neden 137 değil 55 sağlayıcı?
+## Neden 137 değil 72 sağlayıcı?
 
 `plugins.json` içindeki 137 kayıt derlenmiş CloudStream uzantısıdır (`.cs3`).
 Nuvio Mobile yalnızca JavaScript sağlayıcı çalıştırdığı için bu dosyalar orada
 kullanılamaz. Bu depodaki `manifest.json`, aynı Türkçe siteler için mevcut ve
 doğrulanmış Nuvio JavaScript portlarını bir araya getirir. JavaScript portu
 bulunmayan CloudStream uzantıları yalnızca CS3 destekli istemcilerde kalır.
+
+Eklenen yeni CloudStream kaynakları (Kekik, Nik, Sinetech, Bushido, BlackHope,
+CS Kraptor) için karşılığı bulunan sitelerin tümüne Nuvio JS portu eklendi:
+`BelgeselX`, `DiziBox`, `İnatTV`, `RecTV`, `TLC Türkiye`, `WebdramaTurkey2`,
+`YesilCamTv`, `DMAX`, `Dizikorea3`, `FilmEkseni`, `SetFilm`, `Diziyo`, `CizgiMax`,
+`ÇizgiVeDizi`, `DiziLife`. Yeni provider'lar gerçek `getStreams` çağrısıyla
+test edilmiştir (`npm run test`).
+
+Canlı TV / kanal kataloğu sağlayıcıları, her dizi aramasında çalışıp gecikme
+yaratmaması için akış manifestine alınmamıştır. Canlı kanallar için Anthology
+deposunu ayrıca ekleyebilirsin.
 
 Canlı TV / kanal kataloğu sağlayıcıları, her dizi aramasında çalışıp gecikme
 yaratmaması için akış manifestine alınmamıştır. Canlı kanallar için Anthology
@@ -99,6 +112,7 @@ npm run build            # plugins.json + manifest.json + PROVIDERS.md
 npm run build:nuvio      # yalnızca Nuvio manifesti
 npm run build:offline    # CloudStream dizinini son önbellekten üret
 npm run validate         # yapı + tüm sağlayıcı URL'lerini doğrula
+npm run test             # yeni provider'ları gerçek getStreams ile test et
 ```
 
 `.github/workflows/rebuild.yml` her hafta kaynakları yeniler ve değişiklikleri

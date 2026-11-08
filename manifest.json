@@ -303,6 +303,25 @@
       "supportsExternalPlayer": true
     },
     {
+      "id": "belgeselx",
+      "name": "BelgeselX",
+      "description": "BelgeselX Türkçe belgesel dizileri; ok.ru ve CDN MP4 kaynakları.",
+      "version": "1.0.4",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/belgeselx.js",
+      "logo": "https://belgeselx.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "mp4"
+      ],
+      "enabled": true
+    },
+    {
       "id": "cinemacity",
       "name": "CinemaCity",
       "description": "Multi Language Provider",
@@ -324,6 +343,51 @@
         "hi",
         "ar",
         "tr"
+      ]
+    },
+    {
+      "id": "cizgimax",
+      "name": "CizgiMax",
+      "description": "Türkçe çizgi film ve animasyon dizileri. cizgimax.online üzerinden 500+ içerikle full HD stream sağlar.",
+      "version": "1.0.0",
+      "author": "port: @keyiflerolsun / nuvio: Wekmed",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/cizgimax.js",
+      "enabled": true,
+      "logo": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=64",
+      "contentLanguage": [
+        "tr"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
+      "id": "cizgivedizi",
+      "name": "ÇizgiVeDizi",
+      "description": "Türkçe çizgi film, animasyon dizi ve filmler. cizgivedizi.com üzerinden Sibnet/MailRu/MP4Upload stream sağlar.",
+      "version": "1.1.0",
+      "author": "Wekmed",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/cizgivedizi.js",
+      "enabled": true,
+      "logo": "https://www.google.com/s2/favicons?domain=cizgivedizi.com&sz=64",
+      "contentLanguage": [
+        "tr"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "formats": [
+        "m3u8",
+        "mp4"
       ]
     },
     {
@@ -508,6 +572,25 @@
       "supportsExternalPlayer": true
     },
     {
+      "id": "dizibox",
+      "name": "Dizibox",
+      "description": "Dizibox dizi kaynaklari (king.php -> sheila HLS).",
+      "version": "1.0.12",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dizibox.js",
+      "logo": "https://dizibox.live/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
       "id": "diziboxizle",
       "name": "DiziBoxİzle",
       "description": "Güncel yabancı dizi arşivi — VidMoly ve Ok.ru üzerinden 1080p doğrudan HLS ve MP4 akışları.",
@@ -608,6 +691,45 @@
         "m3u8",
         "mp4"
       ],
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "dizikorea3",
+      "name": "Dizikorea3",
+      "description": "Dizikorea3 Kore dizileri arsivi (HLS + Turkce altyazi).",
+      "version": "1.0.9",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dizikorea3.js",
+      "logo": "https://dizikorea3.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dizilife",
+      "name": "DiziLife",
+      "description": "Türk dizi ve filmler — Türkçe & İngilizce ses + altyazı",
+      "version": "1.0.0",
+      "author": "Wekmed",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/dizilife.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=dizi62.life&sz=128",
       "contentLanguage": [
         "tr"
       ]
@@ -777,6 +899,27 @@
       "supportsExternalPlayer": true
     },
     {
+      "id": "diziyo",
+      "name": "Diziyo",
+      "description": "Türkçe dublaj ve altyazılı diziler.",
+      "version": "1.0.0",
+      "author": "nuvio: Wekmed",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/diziyo.js",
+      "enabled": true,
+      "contentLanguage": [
+        "tr"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ]
+    },
+    {
       "id": "diziyou",
       "name": "DiziYou",
       "description": "DiziYou doğrudan depolama akışları ve Türkçe altyazı desteği.",
@@ -797,6 +940,46 @@
         "tr"
       ],
       "supportsExternalPlayer": true
+    },
+    {
+      "id": "dmax",
+      "name": "DMAX",
+      "description": "DMAX Türkiye program arşivi; bölümler player/info HLS adresiyle açılır.",
+      "version": "1.0.4",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dmax.js",
+      "logo": "https://dmax.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "filmekseni",
+      "name": "Film Ekseni",
+      "description": "Türkçe film ve diziler - filmekseni.cc",
+      "version": "1.0.0",
+      "author": "",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/filmekseni.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://filmekseni.cc/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ]
     },
     {
       "id": "csnuvio-filmkovasi",
@@ -897,6 +1080,29 @@
       "contentLanguage": [
         "tr"
       ]
+    },
+    {
+      "id": "fullhdfilm",
+      "name": "FullHDFilmizlesene",
+      "description": "Türkçe dublaj/altyazılı film kaynağı — fullhdfilmizlesene.now",
+      "version": "1.4.1",
+      "author": "turkish-nuvio",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "https://raw.githubusercontent.com/fmustafayaman/turkish-nuvio/main/providers/fullhdfilm.js",
+      "enabled": true,
+      "logo": "https://www.fullhdfilmizlesene.now/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true,
+      "hasSettings": true
     },
     {
       "id": "hdfilmcehennemi",
@@ -1040,6 +1246,43 @@
       ]
     },
     {
+      "id": "inattvdizi",
+      "name": "İnatTV Dizi",
+      "description": "İnatTV yabancı, yerli ve platform dizileri kataloğu (imzalı liste + AES çözümleyici, HLS).",
+      "version": "1.0.3",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/inattvdizi.js",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "inattvfilmler",
+      "name": "İnatTV Filmler",
+      "description": "İnatTV yerli film kataloğu (imzalı liste + AES çözümleyici, HLS/MP4).",
+      "version": "1.0.5",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/inattvfilmler.js",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "enabled": true
+    },
+    {
       "id": "csnuvio-jetfilmizle",
       "name": "JetFilmizle",
       "description": "JetFilmizle Türkçe film kaynakları",
@@ -1177,6 +1420,31 @@
       ]
     },
     {
+      "id": "patron-setfilm",
+      "name": "patronSetFilmIzle",
+      "description": "SetFilmIzle tabanli film ve dizi saglayicisi. @patr0n tarafindan gelistirildi.",
+      "version": "1.0.0",
+      "author": "patr0n",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Wekmed/nuvio/main/providers/Setfilm.js",
+      "enabled": true,
+      "logo": "https://www.google.com/s2/favicons?domain=setfilmizle.uk&sz=64",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
       "author": "falsisdev",
       "version": "1.8.36",
       "enabled": true,
@@ -1229,6 +1497,26 @@
       "contentLanguage": [
         "tr"
       ]
+    },
+    {
+      "id": "rectv",
+      "name": "RecTV",
+      "description": "RecTV resmî API film ve dizi kataloğu (token'lı m3u8).",
+      "version": "1.0.1",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/rectv.js",
+      "logo": "https://rectv.org.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
     },
     {
       "id": "seicode",
@@ -1516,6 +1804,25 @@
       ]
     },
     {
+      "id": "tlctr",
+      "name": "TLC Türkiye",
+      "description": "TLC Türkiye program arşivi; bölümler DYG imzalı HLS olarak açılır.",
+      "version": "1.0.3",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/tlctr.js",
+      "logo": "https://tlctv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
       "author": "falsisdev",
       "version": "1.8.36",
       "enabled": true,
@@ -1657,6 +1964,26 @@
       ]
     },
     {
+      "id": "webdramaturkey2",
+      "name": "WebdramaTurkey2",
+      "description": "WebdramaTurkey2 Kore/Cin/Japon dizileri, filmleri ve animeleri (Turkce altyazili).",
+      "version": "1.0.6",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/webdramaturkey2.js",
+      "logo": "https://webdramaturkey2.com/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "enabled": true
+    },
+    {
       "id": "webteizle",
       "name": "Webteİzle",
       "description": "Webteİzle arşivi üzerinden Türkçe Dublaj ve Altyazılı VidMoly 1080p master HLS akışları.",
@@ -1700,6 +2027,26 @@
         "en"
       ],
       "supportsExternalPlayer": true
+    },
+    {
+      "id": "yesilcamtv",
+      "name": "YesilCamTv",
+      "description": "Yeşilçam TV: klasik Türk filmleri; Rumble HLS kaliteleri ve doğrudan MP4 akışları.",
+      "version": "1.0.7",
+      "author": "F0Rextasy",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/yesilcamtv.js",
+      "logo": "https://yesilcamtv.com.tr/favicon.ico",
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "enabled": true
     },
     {
       "id": "youtube_dizifilm",

@@ -56,7 +56,141 @@ const SOURCES = [
     id: "turkish-nuvio",
     repo: "https://github.com/fmustafayaman/turkish-nuvio",
     manifestUrl: "https://raw.githubusercontent.com/fmustafayaman/turkish-nuvio/main/manifest.json",
-    includeIds: ["dizifilm", "dizibal"]
+    includeIds: ["fullhdfilm", "dizifilm", "dizibal"]
+  },
+  {
+    // Ports of the same sites that appear in the newly merged CloudStream
+    // repositories (BelgeselX, DiziBox, YesilCamTv, RecTV, ...), so those
+    // sites become executable on Nuvio Mobile, not only on Nuvio TV.
+    id: "bigbullapp",
+    repo: "https://github.com/F0Rextasy/bigbullapp-cs",
+    manifestUrl: "",
+    entries: [
+      {
+        id: "belgeselx",
+        name: "BelgeselX",
+        description: "BelgeselX Türkçe belgesel dizileri; ok.ru ve CDN MP4 kaynakları.",
+        version: "1.0.4",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/belgeselx.js",
+        logo: "https://belgeselx.com/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["mp4"]
+      },
+      {
+        id: "dizibox",
+        name: "Dizibox",
+        description: "Dizibox dizi kaynaklari (king.php -> sheila HLS).",
+        version: "1.0.12",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dizibox.js",
+        logo: "https://dizibox.live/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "inattvdizi",
+        name: "İnatTV Dizi",
+        description: "İnatTV yabancı, yerli ve platform dizileri kataloğu (imzalı liste + AES çözümleyici, HLS).",
+        version: "1.0.3",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/inattvdizi.js",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "inattvfilmler",
+        name: "İnatTV Filmler",
+        description: "İnatTV yerli film kataloğu (imzalı liste + AES çözümleyici, HLS/MP4).",
+        version: "1.0.5",
+        author: "F0Rextasy",
+        supportedTypes: ["movie"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/inattvfilmler.js",
+        contentLanguage: ["tr"],
+        formats: ["m3u8", "mp4"]
+      },
+      {
+        id: "rectv",
+        name: "RecTV",
+        description: "RecTV resmî API film ve dizi kataloğu (token'lı m3u8).",
+        version: "1.0.1",
+        author: "F0Rextasy",
+        supportedTypes: ["movie", "tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/rectv.js",
+        logo: "https://rectv.org.tr/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "tlctr",
+        name: "TLC Türkiye",
+        description: "TLC Türkiye program arşivi; bölümler DYG imzalı HLS olarak açılır.",
+        version: "1.0.3",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/tlctr.js",
+        logo: "https://tlctv.com.tr/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "webdramaturkey2",
+        name: "WebdramaTurkey2",
+        description: "WebdramaTurkey2 Kore/Cin/Japon dizileri, filmleri ve animeleri (Turkce altyazili).",
+        version: "1.0.6",
+        author: "F0Rextasy",
+        supportedTypes: ["movie", "tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/webdramaturkey2.js",
+        logo: "https://webdramaturkey2.com/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "yesilcamtv",
+        name: "YesilCamTv",
+        description: "Yeşilçam TV: klasik Türk filmleri; Rumble HLS kaliteleri ve doğrudan MP4 akışları.",
+        version: "1.0.7",
+        author: "F0Rextasy",
+        supportedTypes: ["movie"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/yesilcamtv.js",
+        logo: "https://yesilcamtv.com.tr/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8", "mp4"]
+      },
+      {
+        id: "dmax",
+        name: "DMAX",
+        description: "DMAX Türkiye program arşivi; bölümler player/info HLS adresiyle açılır.",
+        version: "1.0.4",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dmax.js",
+        logo: "https://dmax.com.tr/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      },
+      {
+        id: "dizikorea3",
+        name: "Dizikorea3",
+        description: "Dizikorea3 Kore dizileri arsivi (HLS + Turkce altyazi).",
+        version: "1.0.9",
+        author: "F0Rextasy",
+        supportedTypes: ["tv"],
+        filename: "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/nuvio/providers/dizikorea3.js",
+        logo: "https://dizikorea3.com/favicon.ico",
+        contentLanguage: ["tr"],
+        formats: ["m3u8"]
+      }
+    ]
+  },
+  {
+    id: "wekmed",
+    repo: "https://github.com/Wekmed/nuvio",
+    manifestUrl: "https://raw.githubusercontent.com/Wekmed/nuvio/main/manifest.json",
+    includeIds: ["filmekseni", "patron-setfilm", "diziyo", "cizgimax", "cizgivedizi", "dizilife"]
   }
 ];
 
@@ -109,6 +243,7 @@ function normalizeEntry(scraper, source) {
 }
 
 async function fetchManifest(source) {
+  if (source.entries) return { scrapers: source.entries };
   const response = await fetch(source.manifestUrl, {
     headers: { "user-agent": "nuvio-plugins-merge/1.0" }
   });
