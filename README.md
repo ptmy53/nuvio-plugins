@@ -1,79 +1,97 @@
-# Nuvio / CloudStream Birleşik Eklenti Deposu
+# PT Nuvio Türkçe
 
-Beş ayrı CloudStream eklenti deposunun tek bir `plugins.json` dosyasında
-birleştirilmiş hâli. Depoda uygulama kodu veya `.cs3` ikilisi barındırılmaz;
-dosya yalnızca sağlayıcıların adreslerini, sürümlerini ve meta verilerini taşır.
+Nuvio için **yerel JavaScript sağlayıcı deposu**. Mobil, TV ve Android dahil
+Nuvio'nun tam (sideload) sürümlerinde çalışır. Sağlayıcı kodları cihazda
+Nuvio'nun kendi JavaScript motorunda çalışır; harici sunucu veya hesap gerekmez.
+
+## Nuvio'ya ekle
+
+Aşağıdaki adresi kopyala:
+
+```
+https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/manifest.json
+```
+
+### Nuvio Mobile (Android / iPhone, tam sürüm)
+
+1. **Ayarlar → İçerik ve Keşif → Eklentiler** bölümünü aç.
+2. **Depo ekle / Plugin manifest URL** alanına yukarıdaki adresi yapıştır.
+3. **Kur** de, ardından **sağlayıcıları** tek tek etkinleştir.
+4. **“Eklenti sağlayıcılarını genel olarak etkinleştir”** anahtarının açık olduğundan emin ol.
+
+### Nuvio TV / Android TV (tam sürüm)
+
+1. **Ayarlar → İçerik ve Keşif → Eklentiler → Depo ekle** bölümünü aç.
+2. Adresi yapıştır (kumandayla yazmak istersen yalnızca `ptmy53/nuvio-plugins` de yeterli).
+3. Depo yüklendikten sonra sağlayıcıları aç ve **Test** ile doğrula.
+
+> Mağaza (Play Store / App Store) sürümlerinde eklentiler tamamen kapalıdır.
+> GitHub Releases üzerinden kurulan **tam/sideload** sürüm gerekir.
+
+## Kapsam
 
 | | |
 |---|---|
-| Sağlayıcı sayısı | **86** (128 kayıttan, 29 tekrar grubu birleştirildi) |
-| Çalışan (`status: 1`) | 71 |
-| Devre dışı (`status: 0`) | 14 |
-| Sorunlu (`status: 3`) | 1 |
-| Toplam ikili boyutu | ~6,1 MB |
-| Kaynak depo | 5 |
+| Nuvio sağlayıcısı | **55** |
+| Kaynak depo | 4 |
+| Platform | Nuvio Mobile, Nuvio TV, Android TV (tam sürüm) |
+| Dil | Türkçe ağırlıklı |
+| Format | HLS / M3U8 / MP4 / MKV |
 
-## Kurulum
+Sağlayıcıların tam listesi: **[PROVIDERS.md](PROVIDERS.md)**
 
-Depo adresi:
+### Kaynaklar ve lisanslar
+
+| Depo | Seçilen | Lisans |
+|---|---:|---|
+| [falsisdev/anthology](https://github.com/falsisdev/anthology) | 34 | GPL-3.0 |
+| [csprofesor/csnuvio](https://github.com/csprofesor/csnuvio) | 15 | belirtilmemiş |
+| [mooncrown04/nuviotr](https://github.com/mooncrown04/nuviotr) | 4 | belirtilmemiş |
+| [fmustafayaman/turkish-nuvio](https://github.com/fmustafayaman/turkish-nuvio) | 2 | GPL-3.0 |
+
+Bu depo sağlayıcı kodlarını kopyalamaz; `manifest.json` her sağlayıcıyı kendi
+kaynak deposundaki güncel dosyaya mutlak URL ile bağlar. Böylece upstream
+düzeltmeleri yeniden derleme gerektirmeden kullanıcıya ulaşır.
+
+## Aynı depodaki CloudStream dizini
+
+`plugins.json`, beş CloudStream deposunun birleştirilmiş hâlidir (86 `.cs3`
+uzantısı). Yalnızca CloudStream'de ve CS3 yükleyicisi olan Nuvio TV Android tam
+sürümünde kullanılabilir; **Nuvio Mobile `.cs3` çalıştıramaz**.
 
 ```
 https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/plugins.json
 ```
 
-### CloudStream
+CloudStream: **Eklentiler → Depo ekle** yoluna bu adresi yapıştır.
 
-1. **Eklentiler → Depo ekle** bölümünü açın.
-2. Yukarıdaki adresi yapıştırın.
-3. Listeden istediğiniz sağlayıcıları etkinleştirin.
+## Neden 86 değil 55 sağlayıcı?
 
-### Nuvio TV (sideload / tam sürüm)
+`plugins.json` içindeki 86 kayıt derlenmiş CloudStream uzantısıdır (`.cs3`).
+Nuvio Mobile yalnızca JavaScript sağlayıcı çalıştırdığı için bu dosyalar orada
+kullanılamaz. Bu depodaki `manifest.json`, aynı Türkçe siteler için mevcut ve
+doğrulanmış Nuvio JavaScript portlarını bir araya getirir. JavaScript portu
+bulunmayan CloudStream uzantıları yalnızca CS3 destekli istemcilerde kalır.
 
-1. **Ayarlar → İçerik ve Keşif → Eklentiler** bölümünü açın.
-2. **Depo ekle** alanına aynı adresi yapıştırın.
-3. Sağlayıcıları tek tek açın ve **Test** ile doğrulayın.
-
-Nuvio TV'nin tam sürümü CloudStream `.cs3` uzantılarını yükleyebildiği için bu
-dosya doğrudan kullanılabilir. Mağaza sürümlerinde ve Nuvio Mobile'da CS3
-yürütücüsü yoktur; orada yalnızca Nuvio'nun JavaScript sağlayıcı formatı
-çalışır. Bu depo bir JavaScript sağlayıcı deposu **değildir**.
-
-## Kaynaklar
-
-| Kaynak | Girdi | Depo |
-|---|---:|---|
-| PLT Stream | 5 | https://github.com/pltmustafa/plt-stream |
-| Manitux CS Plugins | 9 | https://github.com/manitux-app/cs-plugins |
-| BTVault | 64 | https://github.com/baristomruk-max/BTVault |
-| CloudStreamHub | 25 | https://github.com/Emre-Kahveci/CloudStreamHub |
-| Personal CloudStream | 25 | https://github.com/patr0nq/personal_cloudstream |
-
-Her kayıt kendi `repositoryUrl` alanını korur. İkililer (`*.cs3`) orijinal
-depolarda kalır; bu depo yalnızca dizin görevi görür.
-
-## Birleştirme kuralları
-
-- Aynı `internalName` değerine sahip kayıtlar tek sağlayıcıya indirilir.
-- Seçim sırası: çalışan kayıt (`status: 1`) → en yüksek `version` → en büyük
-  `fileSize`.
-- Sürüm numaraları depolar arasında karşılaştırılabilir değildir; bu nedenle
-  önce çalışır durumdaki kayıt tercih edilir.
-- Hiçbir alan uydurulmaz; `name`, `internalName`, `url` ve `tvTypes` zorunludur.
-- Çıktı, CloudStream'in beklediği düz JSON dizisi biçimindedir.
+Canlı TV / kanal kataloğu sağlayıcıları, her dizi aramasında çalışıp gecikme
+yaratmaması için akış manifestine alınmamıştır. Canlı kanallar için Anthology
+deposunu ayrıca ekleyebilirsin.
 
 ## Yeniden üretme
 
 ```bash
-npm run build      # kaynakları çeker, plugins.json üretir
-npm run validate   # yapıyı doğrular
+npm run build            # plugins.json + manifest.json + PROVIDERS.md
+npm run build:nuvio      # yalnızca Nuvio manifesti
+npm run build:offline    # CloudStream dizinini son önbellekten üret
+npm run validate         # yapı + tüm sağlayıcı URL'lerini doğrula
 ```
 
-`npm run build:offline` son çekilen kopyayı `.cache/fetched.json` üzerinden
-kullanır. Birleştirme raporu `.cache/merge-report.json` dosyasına yazılır.
+`.github/workflows/rebuild.yml` her hafta kaynakları yeniler ve değişiklikleri
+otomatik commit eder.
 
 ## Yasal not
 
-Bu depo hiçbir içerik barındırmaz ve hiçbir kaynağa erişim sağlamaz. Tüm
-eklentiler ilgili yazarlara aittir ve kendi lisanslarına tabidir. Kaynak
-sitelerin kullanım koşullarına ve bulunduğunuz ülkenin telif mevzuatına uymak
+Bu depo hiçbir video içeriği barındırmaz ve hiçbir kaynağa erişim sağlamaz.
+Sağlayıcı kodları ilgili yazarlara aittir ve kendi lisanslarına tabidir. Kaynak
+sitelerin kullanım koşullarına ve bulunduğun ülkenin telif mevzuatına uymak
 kullanıcının sorumluluğundadır.
