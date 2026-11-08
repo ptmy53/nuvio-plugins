@@ -40,6 +40,36 @@ const SOURCES = [
     id: "personal-cloudstream",
     name: "Personal CloudStream",
     url: "https://raw.githubusercontent.com/patr0nq/personal_cloudstream/refs/heads/builds/plugins.json"
+  },
+  {
+    id: "kekik-cloudstream",
+    name: "Kekik CloudStream",
+    url: "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json"
+  },
+  {
+    id: "nik-cloudstream",
+    name: "Nik CloudStream",
+    url: "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json"
+  },
+  {
+    id: "sinetech",
+    name: "Sinetech",
+    url: "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json"
+  },
+  {
+    id: "bushido",
+    name: "Bushido",
+    url: "https://raw.githubusercontent.com/Bushidotv/Bushido/builds/plugins.json"
+  },
+  {
+    id: "blackhope-cloudstream-plugins",
+    name: "BlackHope CloudStream Plugins",
+    url: "https://raw.githubusercontent.com/blackhope01/cloudstream-plugins/refs/heads/builds/plugins.json"
+  },
+  {
+    id: "cs-kraptor",
+    name: "CS Kraptor",
+    url: "https://raw.githubusercontent.com/aytzey/cs-kraptor/refs/heads/builds/plugins.json"
   }
 ];
 

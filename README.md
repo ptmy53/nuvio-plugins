@@ -55,9 +55,24 @@ düzeltmeleri yeniden derleme gerektirmeden kullanıcıya ulaşır.
 
 ## Aynı depodaki CloudStream dizini
 
-`plugins.json`, beş CloudStream deposunun birleştirilmiş hâlidir (86 `.cs3`
+`plugins.json`, on bir CloudStream deposunun birleştirilmiş hâlidir (137 `.cs3`
 uzantısı). Yalnızca CloudStream'de ve CS3 yükleyicisi olan Nuvio TV Android tam
 sürümünde kullanılabilir; **Nuvio Mobile `.cs3` çalıştıramaz**.
+
+| Kaynak | Kayıt |
+|---|---:|
+| PLT Stream | 5 |
+| Manitux CS Plugins | 9 |
+| BTVault | 64 |
+| CloudStreamHub | 25 |
+| Personal CloudStream | 25 |
+| Kekik CloudStream (feroxx) | 37 |
+| Nik CloudStream (nikyokki) | 52 |
+| Sinetech (GitLatte) | 12 |
+| Bushido (Bushidotv) | 9 |
+| BlackHope CloudStream Plugins | 13 |
+| CS Kraptor (aytzey) | 67 |
+| **Toplam** | **318 kayıt → 137 sağlayıcı** |
 
 ```
 https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/plugins.json
@@ -65,9 +80,9 @@ https://raw.githubusercontent.com/ptmy53/nuvio-plugins/main/plugins.json
 
 CloudStream: **Eklentiler → Depo ekle** yoluna bu adresi yapıştır.
 
-## Neden 86 değil 55 sağlayıcı?
+## Neden 137 değil 55 sağlayıcı?
 
-`plugins.json` içindeki 86 kayıt derlenmiş CloudStream uzantısıdır (`.cs3`).
+`plugins.json` içindeki 137 kayıt derlenmiş CloudStream uzantısıdır (`.cs3`).
 Nuvio Mobile yalnızca JavaScript sağlayıcı çalıştırdığı için bu dosyalar orada
 kullanılamaz. Bu depodaki `manifest.json`, aynı Türkçe siteler için mevcut ve
 doğrulanmış Nuvio JavaScript portlarını bir araya getirir. JavaScript portu
