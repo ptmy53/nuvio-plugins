@@ -27,7 +27,7 @@
       "id": "animecix",
       "name": "AnimeciX",
       "description": "TauVideo altyapısıyla binlerce anime bölümü (1080p, 720p, 480p direct MP4).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -66,7 +66,7 @@
       "id": "animeprax",
       "name": "AnimePraX",
       "description": "Sibnet, OK.ru ve Dailymotion üzerinden Türkçe anime akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -107,7 +107,7 @@
       "id": "animom",
       "name": "AniMOM",
       "description": "HDPlayer HLS, Sibnet ve YourUpload üzerinden Türkçe anime akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -148,7 +148,7 @@
       "id": "anizium",
       "name": "Anizium",
       "description": "4K & 1080p Türkçe Dublaj ve Altyazılı Anime Kaynağı (Doğrudan MP4 + WebVTT).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -190,7 +190,7 @@
       "id": "anizm",
       "name": "Anizm",
       "description": "AnizmPlayer (FirePlayer HLS), OK.ru ve Sibnet üzerinden Türkçe anime akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -229,7 +229,7 @@
     },
     {
       "author": "falsisdev",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "enabled": true,
       "supportsExternalPlayer": true,
       "id": "anthology_diziler",
@@ -265,7 +265,7 @@
       "id": "asyaanimeleri",
       "name": "AsyaAnimeleri",
       "description": "Anime ve donghua arşivi — Sibnet, Ok.ru, Mail.ru ve Rumble üzerinden 1080p doğrudan MP4 ve HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -394,7 +394,7 @@
       "id": "ddizi",
       "name": "DDizi",
       "description": "Yerli dizi arşivi, güncel bölümler kataloğu ve doğrudan Ciner/Yandex CDN MP4/HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -435,7 +435,7 @@
       "id": "ddizibox",
       "name": "DDiziBox",
       "description": "DDiziBox dizi ve film arşivi — Pilavyer üzerinden 1080p FHD doğrudan adaptif HLS master akışları ve Türkçe altyazı desteği.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -510,7 +510,7 @@
       "id": "dizibak",
       "name": "DiziBak",
       "description": "Yabancı dizi arşivi, güncel bölümler kataloğu ve doğrudan d1iz-b0ok.xyz 1080p HLS master akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -594,7 +594,7 @@
       "id": "diziboxizle",
       "name": "DiziBoxİzle",
       "description": "Güncel yabancı dizi arşivi — VidMoly ve Ok.ru üzerinden 1080p doğrudan HLS ve MP4 akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -778,7 +778,7 @@
       "id": "dizimom",
       "name": "DiziMom",
       "description": "Popüler yabancı diziler arşivi, güncel bölümler kataloğu ve doğrudan 1080p Fire HLS master akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -838,7 +838,7 @@
       "id": "dizipod",
       "name": "DiziPod",
       "description": "Popüler yabancı ve yerli dizi/film arşivi — Doğrudan HLS master akışları ve Türkçe altyazı desteği.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -872,7 +872,7 @@
       "id": "diziwatch",
       "name": "DiziWatch",
       "description": "diziwatch.ac arşivi üzerinden güncel anime ve yabancı dizi akışları sunar.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -923,7 +923,7 @@
       "id": "diziyou",
       "name": "DiziYou",
       "description": "DiziYou doğrudan depolama akışları ve Türkçe altyazı desteği.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1025,7 +1025,7 @@
       "id": "filmmodu",
       "name": "FilmModu",
       "description": "Türkçe dublaj ve altyazılı 4K/1080p full HD film akışları (ImgsAPI).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1108,7 +1108,7 @@
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "Binlerce HD film - Türkçe dublaj & altyazı, 1080p CloseLoad adaptif HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1149,7 +1149,7 @@
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
       "description": "HDFilmDelisi JSON API arşivi üzerinden VidMody 1080p HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1189,7 +1189,7 @@
       "id": "hdfilmizle",
       "name": "HDFilmIzle",
       "description": "HDFilmIzle (Ink/Vip) arşivi üzerinden FastPlay 1080p HLS master akışları ve TR/EN altyazılar.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1306,7 +1306,7 @@
       "id": "kultfilmler",
       "name": "KultFilmler",
       "description": "KultFilmler arşivi üzerinden VidMoly/Vidpapi HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1346,7 +1346,7 @@
       "id": "liderfilmizle",
       "name": "LiderFilm",
       "description": "LiderFilm.vip - Yerli & yabancı film ve dizi arşivi, 1080p doğrudan HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "metemel",
       "supportedTypes": [
         "movie",
@@ -1446,7 +1446,7 @@
     },
     {
       "author": "falsisdev",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "enabled": true,
       "supportsExternalPlayer": true,
       "id": "puhutv",
@@ -1522,7 +1522,7 @@
       "id": "seicode",
       "name": "SeiCode",
       "description": "SeiCode anime platformu — TauVideo, Ok.ru, Sibnet, VidMoly ve MP4Upload üzerinden 1080p doğrudan MP4 ve HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -1584,7 +1584,7 @@
       "id": "setfilmizle",
       "name": "SetFilmIzle",
       "description": "SetFilmIzle arşivi üzerinden FastPlay 1080p HLS master akışları ve TR/EN altyazılar (film + dizi).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1655,7 +1655,7 @@
       "id": "sinemacx",
       "name": "SinemaCX",
       "description": "Sinema.gg arşivi üzerinden doğrudan 1080p Filmizle HLS master akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1697,7 +1697,7 @@
       "id": "sinewix",
       "name": "SineWix",
       "description": "5000+ HD film, dizi ve anime - Türkçe dublaj & altyazı, 1080p çift ses direct MKV.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1748,7 +1748,7 @@
       "id": "sonanime",
       "name": "SonAnime",
       "description": "SonAnime Türkçe anime arşivi — Doğrudan Backblaze B2 ve Cloudflare CDN üzerinden 1080p, 720p ve 480p Türkçe altyazılı MP4 akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "tv",
@@ -1824,7 +1824,7 @@
     },
     {
       "author": "falsisdev",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "enabled": true,
       "supportsExternalPlayer": true,
       "id": "trdiziizle",
@@ -1860,7 +1860,7 @@
       "id": "tvdiziler",
       "name": "TvDiziler",
       "description": "TvDiziler.tv yerli dizi arşivi üzerinden 1080p HLS (Twitter Amplify), doğrudan MP4 (Ciner/CDN) ve YouTube akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1901,7 +1901,7 @@
       "id": "vidlink",
       "name": "Vidlink",
       "description": "TMDB entegrasyonlu global film ve dizi akış sağlayıcısı (4K/1080p direct MP4).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1924,7 +1924,7 @@
       "id": "vidmody",
       "name": "Vidmody",
       "description": "Doğrudan çoklu dil ve altyazı destekli HLS film ve dizi akış sağlayıcısı (1080p).",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -1987,7 +1987,7 @@
       "id": "webteizle",
       "name": "Webteİzle",
       "description": "Webteİzle arşivi üzerinden Türkçe Dublaj ve Altyazılı VidMoly 1080p master HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -2009,7 +2009,7 @@
       "id": "yabancidizi",
       "name": "YabancıDizi",
       "description": "YabancıDizi arşivi üzerinden Türkçe Dublaj ve Altyazılı VidMoly 1080p master HLS akışları.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "falsisdev",
       "supportedTypes": [
         "movie",
@@ -2052,7 +2052,7 @@
       "id": "youtube_dizifilm",
       "name": "YouTube Dizi & Film",
       "description": "YouTube resmi yapımcı kanalları, yerli dizi ve Yeşilçam film arşivleri, 1080p resmi akışlar.",
-      "version": "1.8.36",
+      "version": "1.8.37",
       "author": "metemel",
       "supportedTypes": [
         "movie",
